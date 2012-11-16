@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! /usr/bin/env python
 
 # this is inspired by http://blog.schmichael.com/2008/10/30/listing-all-passwords-stored-in-gnome-keyring/
  
