@@ -9,8 +9,8 @@ I created it to access my saved chromium-browser passwords from remote via SSH.
 locally (e.g. in gnome-terminal):
 ```python gnome-keyring-dumper.py```
 
-remote (e.g. when connected via SSH and GNOME and its deamons are not running):
-```bash gnome-keyring-dumper.py```
+remote (e.g. when connected via SSH and GNOME and its daemons are not running):
+```bash gnome-keyring-dumper.sh```
 
 
 
