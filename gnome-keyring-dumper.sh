@@ -6,4 +6,4 @@ export $(gnome-keyring-daemon)
 
 python -c "import gnomekeyring;import getpass;p=getpass.getpass();gnomekeyring.unlock_sync(None,p);"
 
-python gnome-keyring-dumper.py
+python "$(dirname $0)/gnome-keyring-dumper.py"
