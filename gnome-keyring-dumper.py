@@ -30,4 +30,9 @@ def hack():
                 print '[%s] --empty--' % keyring
  
 if __name__ == '__main__':
+    # the signal handler is needed because of
+    # http://stackoverflow.com/questions/16410852/keyboard-interrupt-with-with-python-gtk
+    # https://bugzilla.gnome.org/show_bug.cgi?id=622084
+    import signal
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
     hack()
