@@ -38,6 +38,10 @@ Connection to localhost closed.
 user@localhost:~$ 
 ```
 
+## Python 3
+
+* sudo apt-get install python3-secretstorage
+* python3 gnome-keyring-dumper-ng.py
 
 ## Links
 
@@ -45,3 +49,4 @@ user@localhost:~$
 * https://launchpad.net/gkeyring
 * https://answers.launchpad.net/gkeyring/+question/209138
 * https://answers.launchpad.net/gkeyring/+question/211046
+* https://bitbucket.org/kang/python-keyring-lib/issue/151/how-is-it-possible-to-list-keyrings-keys
