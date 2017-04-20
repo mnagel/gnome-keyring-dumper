@@ -16,13 +16,13 @@ def hackng():
                     keyring.get_label(),
                     item.get_label(),
                     attr['username_value'],
-                    item.get_secret()
+                    item.get_secret().decode("utf-8")
                 ))
             else:
                 print('[%s] %s = %s' % (
                     keyring.get_label(),
                     item.get_label(),
-                    item.get_secret()
+                    item.get_secret().decode("utf-8")
                 ))
 
 if __name__ == '__main__':
